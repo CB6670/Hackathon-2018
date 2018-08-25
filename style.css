@@ -1,15 +1,15 @@
 /* put CSS elements here*/
-h1{
+.h1{
     text-emphasis-color: #640d14;
     font-family: 'Roboto', sans-serif;
 }
 
-h2{
+.h2{
     font-family: 'Roboto', sans-serif;
     color: #12253d;
 }
 
-mainTable{
+#mainTable{
     width:30%;
     margin:auto;
     border:1px solid #058ed9;
@@ -17,5 +17,9 @@ mainTable{
     padding: 2px;
     font-family: 'Oswald, sans-serif';
   
+}
+
+body{
+    background-color: lightblue;
 }
 
