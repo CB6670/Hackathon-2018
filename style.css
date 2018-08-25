@@ -1,4 +1,11 @@
 /* put CSS elements here*/
 
-
+mainTable{
+    width:30%;
+    margin:auto;
+    border:1px solid #058ed9;
+    font-size:20px;
+    padding: 2px;
+  
+}
 
