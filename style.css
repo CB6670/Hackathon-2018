@@ -27,7 +27,7 @@ body{
     background-color: lightblue;
 }
 
-.firstH,secondH,thirdH,fourthH,fifthH,sixthH{
+.firstH,.secondH,.thirdH,.fourthH,.fifthH,.sixthH{
 border: 5px;
 margin: auto;
 padding: 2px;
