@@ -1,10 +1,10 @@
 /* put CSS elements here*/
-h1{
+.h1{
     text-emphasis-color: #640d14;
     font-family: 'Roboto', sans-serif;
 }
 
-h2{
+.h2{
     font-family: 'Roboto', sans-serif;
     color: #12253d;
 }
