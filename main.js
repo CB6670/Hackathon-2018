@@ -1,29 +1,3 @@
-contactData.forEach(function (element) {
-    // create and append table row
-    let row = document.createElement("tr");
-    mainTable.appendChild(row);
-    // create cells for row
-    let picture = document.createElement("td");
-    let name = document.createElement("td");
-    let email = document.createElement("td");
-    let phone = document.createElement("td");
-    let address = document.createElement("td");
-    
-    // append cells to row
-    row.appendChild(firstCell);
-    row.appendChild(lastCell);
-    row.appendChild(emailCell);
-    // add text to cells
-    pictureCell.innterHTML = element["picture"]
-    nameCell.innerHTML = element["name"]; // what to do about the name object with first and last
-    compCell.innerHTML = element["company"];
-    emailCell.innerHTML = element["email"];
-    phoneCell.innerHTML = element["phone"];
-    addressCell.innerHTML = element["address"];
-});
-
-
-
 let contactData = [
     {
       "_id": "5b748199153ccafc68fc6459",
@@ -476,3 +450,48 @@ let contactData = [
       "registered": "Friday, November 7, 2014 5:19 PM"
     }
   ];
+
+
+
+  contactData.forEach(function (element) {
+    // create and append table row
+
+    let personName = {};
+    let contactData[0];
+      for(let i =0; i<contactData.length; i++){
+          contact= contactData[i];
+          personName=contact[key];
+          if(personName ==="name"){
+
+              for(let key in personName)
+          }
+    if contactData === "name"{
+      for(let key in i)
+  }
+    let row = document.createElement("tr");
+    mainTable.appendChild(row);
+    // create cells for row
+    let pictureCell = document.createElement("td");
+    let nameCell = document.createElement("td");
+    let compCell = document.createElement("td");
+    let emailCell = document.createElement("td");
+    let phoneCell = document.createElement("td");
+    let addressCell = document.createElement("td");
+    
+    // append cells to row
+    row.appendChild(pictureCell);
+    row.appendChild(nameCell);
+    row.appendChild(compCell);
+    row.appendChild(emailCell);
+    row.appendChild(phoneCell);
+    row.appendChild(addressCell);
+
+    let name = contactData.
+    // add text to cells
+    pictureCell.innterHTML = element["picture"]
+    nameCell.innerHTML = element["name"]; // what to do about the name object with first and last
+    compCell.innerHTML = element["company"];
+    emailCell.innerHTML = element["email"];
+    phoneCell.innerHTML = element["phone"];
+    addressCell.innerHTML = element["address"];
+});
