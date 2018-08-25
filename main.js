@@ -456,18 +456,12 @@ let contactData = [
   contactData.forEach(function (element) {
     // create and append table row
 
-    let personName = {};
-    let contactData[0];
-      for(let i =0; i<contactData.length; i++){
-          contact= contactData[i];
-          personName=contact[key];
-          if(personName ==="name"){
-
-              for(let key in personName)
-          }
-    if contactData === "name"{
-      for(let key in i)
-  }
+//     let personName = {};
+//     let contactData[0];
+//       for(let i =)
+//     if contactData === "name"{
+//       for(let key in i)
+//   }
     let row = document.createElement("tr");
     mainTable.appendChild(row);
     // create cells for row
@@ -486,7 +480,6 @@ let contactData = [
     row.appendChild(phoneCell);
     row.appendChild(addressCell);
 
-    let name = contactData.
     // add text to cells
     pictureCell.innterHTML = element["picture"]
     nameCell.innerHTML = element["name"]; // what to do about the name object with first and last
